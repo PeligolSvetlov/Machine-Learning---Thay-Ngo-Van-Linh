@@ -24,7 +24,6 @@ except FileNotFoundError:
 
 
 # %%
-# Biểu đồ 1: Kiểm tra độ lệch dữ liệu
 plt.figure(figsize=(6, 4))
 sns.countplot(x='Personal Loan', data=loan_dataset, palette='viridis')
 plt.title('Phân bổ khách hàng Chấp nhận vay (1) và Từ chối (0)')
